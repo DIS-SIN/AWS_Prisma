@@ -1,0 +1,9 @@
+port: 4466
+databases:
+  default:
+    connector: postgres
+    host: ${PRISMA_DB_HOST}
+    port: 5432
+    user: ${PRISMA_DB_USER}
+    password: ${PRISMA_DB_PASSWORD}
+    migrations: true
